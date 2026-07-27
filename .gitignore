@@ -1,0 +1,20 @@
+# Nextflow execution artifacts
+.nextflow*
+.nextflow.log*
+work/
+
+# Default pipeline output directories (adjust based on your script config)
+results/
+output/
+
+# OS-specific hidden files
+.DS_Store
+Thumbs.db
+
+# Conda / Python environment artifacts (if utilizing local python scripts)
+.conda/
+__pycache__/
+*.pyc
+
+data/
+
