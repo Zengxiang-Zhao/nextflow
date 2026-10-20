@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 /*
- * Trim adapters and run post-trimming QC
+ * get the reads counts for gene
  */
 process FEATURE_COUNTS {
     tag 'all_samples'
